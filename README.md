@@ -15,45 +15,63 @@
 
 ## What is Unleash?
 
-Unleash is a powerful open-source solution for feature management. It streamlines your development workflow, accelerates software delivery, and empowers teams to control how and when they roll out new features to end users. With Unleash, you can deploy code to production in smaller, more manageable releases at your own pace.
-
-Feature flags in Unleash let you test your code with real production data, reducing the risk of negatively impacting your users' experience. It also enables your team to work on multiple features simultaneously without the need for separate feature branches.
-
-Unleash is the most popular open-source solution for feature flagging on GitHub. It supports 15 official client and server SDKs and over 15 community SDKs. You can even create your own SDK if you wish. Unleash is compatible with any language and framework.
-
-<br/>
+* == feature management
+  * powerful
+  * 👀open-source 👀
+* allows
+  * development workflow,
+    * == work | MULTIPLE features SIMULTANEOUSLY / NO need of separate feature branches 
+  * accelerates software delivery,
+  * controlling how & when roll out NEW features | end users 
+  * deploying code | production / MORE manageable releases
+* supports
+  * 15 official client & server SDKs
+  * \> 15 community SDKs
 
 ## Get started with Unleash
 
 ### Set up Unleash
-
-To get started with Unleash, you can either explore [Unleash Enterprise](#set-up-unleash-enterprise) with a free trial or [get started locally](#set-up-unleash-locally) with our open-source solution.
-
 #### Unleash Enterprise
 
-To start with Unleash Enterprise, [request a free trial](https://www.getunleash.io/plans/enterprise-payg?utm_source=oss&utm_medium=readme&utm_content=unleash-enterprise-start). This gives you access to a hosted instance with unlimited projects and environments and features such as [role-based access control](https://docs.getunleash.io/reference/rbac), [change requests](https://docs.getunleash.io/reference/change-requests), [single sign-on](https://docs.getunleash.io/reference/sso), and [SCIM](https://docs.getunleash.io/reference/scim) for automatic user provisioning.
+* steps
+  * [request a free trial](https://www.getunleash.io/plans/enterprise-payg?utm_source=oss&utm_medium=readme&utm_content=unleash-enterprise-start)
+* free trial
+  * == hosted instance / UNLIMITED 
+    * projects & 
+    * environments & 
+    * features 
+      * [role-based access control](https://docs.getunleash.io/reference/rbac),
+      * [change requests](https://docs.getunleash.io/reference/change-requests),
+      * [single sign-on](https://docs.getunleash.io/reference/sso),
+      * [SCIM](https://docs.getunleash.io/reference/scim) -- for -- automatic user provisioning
 
 #### Unleash Open Source
 
-To set up Unleash locally, you'll need [`git`](https://git-scm.com/) and [`docker`](https://www.docker.com/) installed on your machine.
-
-Execute the following commands:
-
-```bash
-git clone git@github.com:Unleash/unleash.git
-cd unleash
-docker compose up -d
-```
-
-Then point your browser to `localhost:4242` and log in using:
-
-- username: `admin`
-- password: `unleash4all`
-
-If you'd rather run the source code in this repo directly via Node.js, see the [step-by-step instructions to get up and running in the contributing guide](./CONTRIBUTING.md#how-to-run-the-project).
+* open-source
+* requirements
+  * install 
+    * [`git`](https://git-scm.com/)
+    * [`docker`](https://www.docker.com/)
+    * NodeJs
+* ways
+  * -- via -- docker
+    * run
+        ```bash
+        git clone git@github.com:Unleash/unleash.git
+        cd unleash
+        docker compose up -d
+        ```
+    * | `localhost:4242`, log in -- via --
+      ```
+      username: `admin`
+      password: `unleash4all`    
+      ```
+  * -- via -- NodeJs
+    * see [step-by-step instructions](./CONTRIBUTING.md#how-to-run-the-project)
 
 ### Connect your SDK
 
+* TODO:
 Find your preferred SDK in [our list of official SDKs](#unleash-sdks) and import it into your project. Follow the setup guides for your specific SDK.
 
 If you use the docker compose file from the previous step, here's the configuration details you'll need to get going:
@@ -93,43 +111,17 @@ The above sections show you how to get up and running quickly and easily. When y
 
 ## Online demo
 
-Try out [the Unleash online demo](https://www.getunleash.io/interactive-demo).
+* [Unleash online demo](https://www.getunleash.io/interactive-demo)
 
-[![The Unleash online demo](./.github/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
+## Community
 
-<br/>
+* [Slack](https://slack.unleash.run)
 
-## Community and help — sharing is caring
+## How to contribute?
 
-We know that learning a new tool can be hard and time-consuming. We have a growing community that loves to help out. Please don't hesitate to reach out for help.
-
-[![Join Unleash on Slack](https://img.shields.io/badge/slack-join-635dc5?logo=slack)](https://slack.unleash.run)
-
-💬 [Join Unleash on Slack](https://slack.unleash.run) if you want ask open questions about Unleash, feature toggling or discuss these topics in general.
-
-💻 [Create a GitHub issue](https://github.com/Unleash/unleash/issues/new) if you have found a bug or have ideas on how to improve Unleash.
-
-📚 [Visit the documentation](https://docs.getunleash.io/) for more in-depth descriptions, how-to guides, and more.
-
-📖 Learn more about the principles of building and scaling [feature flag](https://docs.getunleash.io/topics/feature-flags/feature-flag-best-practices) solutions.
-
-<br/>
-
-## Contribute to Unleash
-
-Unleash is the largest [open-source feature flag solution](https://www.getunleash.io/) on GitHub. Building Unleash is a collaborative effort, and we owe a lot of gratitude to many smart and talented individuals. Building it together with the community ensures that we build a product that solves real problems for real people. We'd love to have your help too: Please feel free to open issues or provide pull requests.
-
-Check out [the CONTRIBUTING.md file](./CONTRIBUTING.md) for contribution guidelines and the [Unleash developer guide](./website/docs/contributing/developer-guide.md) for tips on environment setup, running the tests, and running Unleash from source.
-
-### Contributors
-
-<div align="center">
-
-[![The Unleash contributors](https://cdn.getunleash.io/docs-assets/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
-
-</div>
-
-<br/>
+* see
+  * [CONTRIBUTING.md file](./CONTRIBUTING.md)
+  * [Unleash developer guideliness](./website/docs/contributing/developer-guide.md)
 
 ## Features our users love
 
